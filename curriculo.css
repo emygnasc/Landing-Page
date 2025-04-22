@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f0f8ff;
+    color: #000000;
+}
+
+header {
+    background-color: #003366;
+    padding: 20px;
+    text-align: center;
+}
+
+nav h1 {
+    color: #ffffff;
+    font-size: 1.8em;
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 10px;
+}
+
+nav li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav a {
+    color: #66ccff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+main {
+    padding: 40px;
+    background-color: #ffffff;
+}
+
+section {
+    margin-bottom: 30px;
+    border-left: 5px solid #0066cc;
+    padding-left: 15px;
+}
+
+h2 {
+    color: #003366;
+    font-size: 1.4em;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #003366;
+    color: #ffffff;
+    text-align: center;
+    padding: 15px;
+}
+
+.container-botoes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.botao-redirecionar {
+    background-color: #003366;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.botao-redirecionar:hover {
+    background-color: #0059b3;
+    transform: translateY(-3px);
+}
+
+.botao-redirecionar:active {
+    background-color: #002f4d;
+    transform: translateY(0);
+}
